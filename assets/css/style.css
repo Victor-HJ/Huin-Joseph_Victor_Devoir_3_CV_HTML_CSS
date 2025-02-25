@@ -12,6 +12,7 @@ body{
     align-items: center;
     box-sizing: border-box;
     background-color: #e3e3e3;
+    margin: 0;
 }
 
     *:not(.brand__icon, .title){
@@ -24,6 +25,7 @@ body{
 
     .container{
         width: 1160px;
+        box-sizing: border-box;
     }
 
         .hidden__titles{
@@ -49,16 +51,16 @@ body{
                 padding: 20px;
             }
 
-                h1, h2{
+                #CV__title, #job__title{
                     color: white;
                 }
 
-                h1{
+                #CV__title{
                     font-size: 3rem;
                     margin: 0;
                 }
 
-                h2 {
+                #job__title{
                     font-size: 2rem;
                     margin: 10px 0 20px;
                 }
@@ -66,7 +68,7 @@ body{
                     #contact__icons{
                         width: 30%;
                         display: flex;
-                        flex-flow: column;
+                        flex-direction: column;
                         justify-content: space-around;
                     }
 
@@ -120,3 +122,77 @@ body{
                             border: 5px solid white;
                             border-radius: 50%;
                         }
+
+        main{
+            display: flex;     
+        }
+
+            #main__left__container{
+                display: flex;
+                flex-direction: column;
+                width: 20%;
+                background-color: #e3e3e3;
+                padding: 10px 20px;
+            }
+
+                .title{
+                    color: #17abb3;
+                    font-weight: 700;
+                    font-size: 1.3rem;
+                }
+
+
+                hr{
+                    margin-top: -10px;
+                    opacity: 0.5;
+                }
+
+                .left__section{
+                    margin-block-start: 15px;
+                }
+
+                .left__blocks{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    vertical-align: middle;
+                    line-height: 1.5rem;
+                }
+
+                .first__block{
+                    margin-block-start: 15px;
+                }
+
+                    .item{
+                        font-size: 0.8rem;
+                        margin: 0;
+                        font-weight: 700;
+                    }
+
+                    .icon__item{
+                        height: 0.8rem;
+                        width: 0.8rem;
+                        margin: 0;
+                    }
+
+                    .item__level{
+                        font-size: 0.8rem;
+                        margin: 0;
+                    }
+
+                    .list{
+                        padding: 0 20px;
+                        margin: 0;
+                        list-style-type: square;
+                        color: #17abb3;
+                        line-height: 1.2rem;
+                    }
+
+                        .font__list{
+                            color: black;
+                            font-size: 0.9rem;
+                        }
+
+            #main__right__container{
+                width: 80%;
+            }
