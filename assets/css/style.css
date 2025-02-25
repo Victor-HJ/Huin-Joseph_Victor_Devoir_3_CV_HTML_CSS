@@ -227,17 +227,14 @@ body{
 
                             .pro__item{
                                 font-weight: 700;
-                                margin: 0;
                             }
 
                             .pro__item__location{
                                 font-size: 0.8rem;
                                 font-style: italic;
-                                margin: 0;
                             }
 
                             .pro__item__dates{
                                 color: #17abb3;
                                 font-weight: 500;
-                            margin: 0;
                             }
